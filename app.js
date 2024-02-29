@@ -6,7 +6,7 @@ const app = express();
 
 
 
-// Use cors middleware to allow CORS on all sites
+// Use cors middleware to allow CORS on all sites.
 app.use(cors());
 
 app.get("/", (req, res) => {
