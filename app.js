@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
 });
 
 app.get('/api/invoice/search', async (req, res) => {
-  const { email } = req?.query;
+  const { email } = req?.query
   // console.log(email, process.env);
 
   try {
